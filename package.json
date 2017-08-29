@@ -1,0 +1,23 @@
+{
+  "name": "account-transactions",
+  "version": "1.0.0",
+  "description": "A simple app that allows users to perform banking transactions",
+  "main": "src/transaction.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "keywords": [
+    "Account",
+    "Bank",
+    "Withdraw"
+  ],
+  "author": "Ovie Ipheghe",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
